@@ -52,7 +52,8 @@ body {
 
 .right-panel {
   flex: 4;
-  
+  background-color: rgb(103, 38, 38);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,6 +62,7 @@ body {
 .right-panel>p {
   margin: 2rem 3rem;
   font-size: 1.8rem;
+  color: antiquewhite;
 }
 
 .right-panel>p:last-child {
@@ -71,6 +73,8 @@ form {
   margin: 2rem 0;
   padding: 2rem 3rem;
   box-shadow: 0px 3px 10px grey;
+
+  background-color: white;
 
   display: flex;
   flex-wrap: wrap;
